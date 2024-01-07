@@ -28,7 +28,7 @@ const TypeCar = ({ selectedCategory, selectedTypes }) => {
                                 <Link to={`/Detail/${car.vehicle.toLowerCase()}`}>
                                     <div>
                                         <img className="w-full cursor-pointer" src={car.imageURL} alt=""/>
-                                        <span className="text-white tracking-widest text-xs font-bold rounded-lg bg-blue-500 inline-block mt-4 ml-4 py-1.5 px-4 cursor-pointer">
+                                        <span className="text-blue-600 tracking-widest text-xs font-bold rounded-lg inline-block mt-4 ml-4 py-1.5 px-4 cursor-pointer">
                                             {selectedCategory.name}
                                         </span>
                                         <h1 className="text-lg tracking-widest mt-2 ml-4 font-bold text-gray-800 cursor-pointer hover:text-gray-900 transition duration-100">
